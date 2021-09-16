@@ -1,0 +1,91 @@
+footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 90px 0 75px;
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .footerPhone {
+            padding-bottom: 15px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 36px;
+            text-decoration: none;
+            color: black;
+            &:hover {
+                color: rgb(55, 55, 55);
+                text-decoration: none;
+            }
+        }
+        .footerContacts {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 28px;
+            color: black;
+            .footerCity {
+                line-height: 28px;
+            }
+            .footerEmail {
+                a {
+                    color: black;
+                    opacity: 0.5;
+                    line-height: 28px;
+                    text-decoration: none;
+                }
+            }
+            .footerSocialItems {
+                padding-top: 24px;
+                width: 110px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .newsSubscribeWrapper {
+            position: relative;
+            width: 685px;
+            h2 {
+                margin: 0;
+                font-family: "Playfair Display", serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 36px;
+                color: black;
+                padding-bottom: 15px;
+            }
+            form {
+                position: relative;
+                width: 100%;
+                input {
+                    padding: 20px 5px 20px;
+                    height: 54px;
+                    width: 70.59%;
+                    border: 1px solid #e5e5e5;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 36px;
+                }
+                button {
+                    position: absolute;
+                    right: inherit;
+                    width: 29.41%;
+                    height: 54px;
+                    background-color: black;
+                    border: 1px solid black;
+                    font-family: "Roboto", sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 36px;
+                    color: white;
+                }
+            }
+        }
+    }
+}

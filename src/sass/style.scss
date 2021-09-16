@@ -1,0 +1,23 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/slick-theme";
+@import "libs/slick";
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+* {
+    font-family: "Roboto", sans-serif;
+}
+body {
+    margin: 0;
+}
+.container {
+    position: relative;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/hits";
+@import "blocks/carousel";
+@import "blocks/new";
+@import "blocks/footer";
+@import "media";

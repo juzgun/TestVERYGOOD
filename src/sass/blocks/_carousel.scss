@@ -1,0 +1,61 @@
+.carousel {
+    padding: 25px 0 60px;
+    // width: 900px;
+    &__inner {
+        position: relative;
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    .carouselSlide {
+        position: relative;
+        background: center / cover no-repeat url(/img/banner1.png);
+        height: 450px;
+        max-width: 1180px;
+        .carouselSlideTitle {
+            position: absolute;
+            width: 300px;
+            height: 160px;
+            left: 85px;
+            top: 101px;
+            font-family: "Playfair Display", serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 80px;
+            color: white;
+        }
+        .carouselSlideText {
+            position: absolute;
+            width: 251px;
+            height: 24px;
+            left: 85px;
+            top: 291px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 24px;
+            color: white;
+        }
+    }
+    .dots-style {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding-left: 0;
+    }
+    .dots-style button {
+        background: #adadad77;
+        border: none;
+        border-radius: 50%;
+        font-size: 0;
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+        outline: none;
+    }
+    .dots-style li[class="slick-active"] button {
+        background: #717171;
+    }
+}

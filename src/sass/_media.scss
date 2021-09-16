@@ -1,0 +1,135 @@
+@media (max-width: 1200px) {
+    header .container {
+        margin: 0 20px;
+    }
+    .headerIcons {
+        margin-right: 15px;
+        position: absolute;
+        left: 86%;
+        top: 75px;
+        .headerIconsItem {
+            margin-left: 10px;
+        }
+    }
+    .newThings .container .newItems,
+    .hit .container .hitItems {
+        justify-content: space-around;
+    }
+    .newThings .container .newItems .newItem,
+    .hit .container .hitItems .hitItem {
+        width: 280px;
+        height: 430px;
+    }
+    footer .container .newsSubscribeWrapper {
+        margin-right: 20px;
+        width: 62%;
+    }
+    footer .container .footerContacts {
+        .footerContacts {
+            margin: 0;
+        }
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .carousel .dots-style button {
+        width: 8px;
+        height: 11px;
+    }
+
+    .carousel .dots-style {
+        position: absolute;
+        top: 90%;
+        right: 42%;
+    }
+    footer {
+        padding: 50px 0 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        padding: 10px 0 30px;
+    }
+    .hit .container {
+        padding: 30px 0 60px;
+    }
+    footer {
+        padding: 30px 0 20px;
+    }
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .container .footerContacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .footerContacts {
+            margin: 0;
+        }
+        margin-left: 0px;
+    }
+    footer .container .newsSubscribeWrapper {
+        margin-top: 30px;
+    }
+    footer .container .newsSubscribeWrapper h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    footer .container .newsSubscribeWrapper form {
+        input {
+            padding: 0;
+            padding-left: 10px;
+            height: 34px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        button {
+            height: 34px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .headerIcons {
+        left: 70%;
+        top: 43px;
+        .headerIconsItem {
+            margin-left: 10px;
+        }
+    }
+    .titleWrapper {
+        flex-direction: column;
+        height: 60px;
+    }
+    .headerTabsItem {
+        margin: 5px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .carousel .carouselSlide {
+        .carouselSlideTitle {
+            top: 30px;
+            left: 30px;
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .carouselSlideText {
+            top: 115px;
+            left: 30px;
+            font-size: 14px;
+        }
+    }
+    .carousel .carouselSlide {
+        height: 300px;
+    }
+    footer .container .footerPhone,
+    footer .container .footerContacts {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
